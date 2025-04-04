@@ -1,0 +1,47 @@
+#root {
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  font-family: "Roboto";
+  background-color: rgb(114, 22, 102);
+}
+.stopwatch-cont{
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 17px;
+}
+
+.time-cont{
+  display: flex;
+  justify-content: space-around;
+  gap:25px;
+  list-style-type: none;
+  font-size:83px;
+  align-items: center;
+}
+.btn-cont{
+  display: flex;
+  gap:20px;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+.btn-style{
+  width:150px;
+  height: 50px;
+  cursor: pointer;
+  border-width: 0px;
+  font-size:20px;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+.reset{
+  background-color:  red;
+}
+.stop{
+  background-color:orange;
+}
+.start{
+  background-color: green;
+}
